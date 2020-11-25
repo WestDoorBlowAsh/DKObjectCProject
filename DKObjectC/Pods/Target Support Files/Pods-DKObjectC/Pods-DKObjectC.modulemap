@@ -1,0 +1,6 @@
+framework module Pods_DKObjectC {
+  umbrella header "Pods-DKObjectC-umbrella.h"
+
+  export *
+  module * { export * }
+}
