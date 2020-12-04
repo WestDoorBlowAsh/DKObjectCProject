@@ -6,17 +6,15 @@
 //  Copyright © 2020 邓凯. All rights reserved.
 //
 
-#import "ViewController.h"
-#import "ZZFLEX.h"
-#import <Masonry/Masonry.h>
+#import "ZZFlexTestUIVC.h"
 
-@interface ViewController ()
+@interface ZZFlexTestUIVC ()
 
 @property (nonatomic, strong) UIView *myView;
 
 @end
 
-@implementation ViewController
+@implementation ZZFlexTestUIVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];

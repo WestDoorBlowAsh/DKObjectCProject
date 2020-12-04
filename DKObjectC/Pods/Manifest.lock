@@ -24,7 +24,7 @@ DEPENDENCIES:
   - AFNetworking (~> 4.0)
   - Masonry (~> 1.1.0)
   - MJRefresh (~> 3.5.0)
-  - SDWebImage (~> 5.0)
+  - SDWebImage (~> 5.10.0)
 
 SPEC REPOS:
   trunk:
@@ -39,6 +39,6 @@ SPEC CHECKSUMS:
   MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
   SDWebImage: 9169792e9eec3e45bba2a0c02f74bf8bd922d1ee
 
-PODFILE CHECKSUM: e4bc1b160d6b3f064d43e4b5a178a9a7cfcd07d7
+PODFILE CHECKSUM: b9b336dc922fb5afe8be0eabdb5b6b7c591a4903
 
 COCOAPODS: 1.10.0

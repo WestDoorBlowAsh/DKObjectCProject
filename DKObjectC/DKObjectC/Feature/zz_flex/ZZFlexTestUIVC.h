@@ -6,9 +6,9 @@
 //  Copyright © 2020 邓凯. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "DKBaseViewController.h"
 
-@interface ViewController : UIViewController
+@interface ZZFlexTestUIVC : DKBaseViewController
 
 
 @end
