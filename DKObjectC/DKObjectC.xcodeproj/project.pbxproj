@@ -15,7 +15,6 @@
 		E63416CA256D2BFD00FB58C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E63416C9256D2BFD00FB58C5 /* Assets.xcassets */; };
 		E63416CD256D2BFD00FB58C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E63416CB256D2BFD00FB58C5 /* LaunchScreen.storyboard */; };
 		E63416D0256D2BFD00FB58C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E63416CF256D2BFD00FB58C5 /* main.m */; };
-		E63416DC256D33FE00FB58C5 /* DKFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E63416DB256D33FE00FB58C5 /* DKFactory.m */; };
 		E6F6116F256E7A1700B0EEC7 /* ZZFLEXViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F61102256E7A1700B0EEC7 /* ZZFLEXViewModel.m */; };
 		E6F61170256E7A1700B0EEC7 /* ZZFLEXSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F61103256E7A1700B0EEC7 /* ZZFLEXSectionModel.m */; };
 		E6F61171256E7A1700B0EEC7 /* ZZFlexibleLayoutSeperatorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F61108256E7A1700B0EEC7 /* ZZFlexibleLayoutSeperatorCell.m */; };
@@ -84,6 +83,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		160E8BC3257A1806002395EB /* 代码规范.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "代码规范.md"; sourceTree = "<group>"; };
+		160E8BC4257A1880002395EB /* 目录结构.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "目录结构.md"; sourceTree = "<group>"; };
+		160E8BD1257A19A5002395EB /* temp.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = temp.txt; sourceTree = "<group>"; };
+		160E8BD2257A19AA002395EB /* temp.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = temp.txt; sourceTree = "<group>"; };
+		160E8BD8257A19B4002395EB /* temp.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = temp.txt; sourceTree = "<group>"; };
+		160E8BDD257A19BB002395EB /* temp.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = temp.txt; sourceTree = "<group>"; };
+		160E8BE7257A19C2002395EB /* temp.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = temp.txt; sourceTree = "<group>"; };
+		160E8BEC257A19C6002395EB /* temp.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = temp.txt; sourceTree = "<group>"; };
 		A9996C9BE0B1A3643E0940FB /* Pods_DKObjectC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DKObjectC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D846A3FD22C0A26DC2326EC2 /* Pods-DKObjectC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKObjectC.debug.xcconfig"; path = "Target Support Files/Pods-DKObjectC/Pods-DKObjectC.debug.xcconfig"; sourceTree = "<group>"; };
 		E63416BA256D2BF500FB58C5 /* DKObjectC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DKObjectC.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,8 +105,6 @@
 		E63416CC256D2BFD00FB58C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E63416CE256D2BFD00FB58C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E63416CF256D2BFD00FB58C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E63416DA256D33FE00FB58C5 /* DKFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKFactory.h; sourceTree = "<group>"; };
-		E63416DB256D33FE00FB58C5 /* DKFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKFactory.m; sourceTree = "<group>"; };
 		E6F61101256E7A1700B0EEC7 /* ZZFLEXSectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZFLEXSectionModel.h; sourceTree = "<group>"; };
 		E6F61102256E7A1700B0EEC7 /* ZZFLEXViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZFLEXViewModel.m; sourceTree = "<group>"; };
 		E6F61103256E7A1700B0EEC7 /* ZZFLEXSectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZFLEXSectionModel.m; sourceTree = "<group>"; };
@@ -232,6 +237,103 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		160E8BC5257A18B2002395EB /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+				E6F610FE256E7A1700B0EEC7 /* ZZFLEX */,
+			);
+			path = vendor;
+			sourceTree = "<group>";
+		};
+		160E8BC6257A18EE002395EB /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				E63416C3256D2BF500FB58C5 /* ViewController.h */,
+				E63416C4256D2BF500FB58C5 /* ViewController.m */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		160E8BC7257A18FA002395EB /* Manage */ = {
+			isa = PBXGroup;
+			children = (
+				160E8BEC257A19C6002395EB /* temp.txt */,
+			);
+			path = Manage;
+			sourceTree = "<group>";
+		};
+		160E8BC8257A190A002395EB /* Utilite */ = {
+			isa = PBXGroup;
+			children = (
+				160E8BE7257A19C2002395EB /* temp.txt */,
+			);
+			path = Utilite;
+			sourceTree = "<group>";
+		};
+		160E8BC9257A1914002395EB /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				E63416BD256D2BF500FB58C5 /* AppDelegate.h */,
+				E63416BE256D2BF500FB58C5 /* AppDelegate.m */,
+				E63416C0256D2BF500FB58C5 /* SceneDelegate.h */,
+				E63416C1256D2BF500FB58C5 /* SceneDelegate.m */,
+				E63416C6256D2BF500FB58C5 /* Main.storyboard */,
+				E63416CB256D2BFD00FB58C5 /* LaunchScreen.storyboard */,
+				E63416CF256D2BFD00FB58C5 /* main.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		160E8BCA257A191D002395EB /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				160E8BDD257A19BB002395EB /* temp.txt */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		160E8BCB257A1925002395EB /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				160E8BD8257A19B4002395EB /* temp.txt */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		160E8BCC257A1936002395EB /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				E63416CE256D2BFD00FB58C5 /* Info.plist */,
+				E63416C9256D2BFD00FB58C5 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		160E8BCD257A193C002395EB /* General */ = {
+			isa = PBXGroup;
+			children = (
+				160E8BD0257A1970002395EB /* Macros */,
+				160E8BCF257A1966002395EB /* Additions */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		160E8BCF257A1966002395EB /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				160E8BD2257A19AA002395EB /* temp.txt */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		160E8BD0257A1970002395EB /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				160E8BD1257A19A5002395EB /* temp.txt */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
 		E63416B1256D2BF400FB58C5 = {
 			isa = PBXGroup;
 			children = (
@@ -257,54 +359,19 @@
 		E63416BC256D2BF500FB58C5 /* DKObjectC */ = {
 			isa = PBXGroup;
 			children = (
-				E63416D8256D2C8700FB58C5 /* DK */,
-				E63416C9256D2BFD00FB58C5 /* Assets.xcassets */,
-				E63416CE256D2BFD00FB58C5 /* Info.plist */,
+				160E8BC4257A1880002395EB /* 目录结构.md */,
+				160E8BC3257A1806002395EB /* 代码规范.md */,
+				160E8BC9257A1914002395EB /* Application */,
+				160E8BCB257A1925002395EB /* Database */,
+				160E8BC6257A18EE002395EB /* Feature */,
+				160E8BCD257A193C002395EB /* General */,
+				160E8BC7257A18FA002395EB /* Manage */,
+				160E8BCC257A1936002395EB /* Resource */,
+				160E8BCA257A191D002395EB /* Storage */,
+				160E8BC8257A190A002395EB /* Utilite */,
+				160E8BC5257A18B2002395EB /* vendor */,
 			);
 			path = DKObjectC;
-			sourceTree = "<group>";
-		};
-		E63416D6256D2C4100FB58C5 /* main */ = {
-			isa = PBXGroup;
-			children = (
-				E63416C6256D2BF500FB58C5 /* Main.storyboard */,
-				E63416CB256D2BFD00FB58C5 /* LaunchScreen.storyboard */,
-				E63416CF256D2BFD00FB58C5 /* main.m */,
-			);
-			path = main;
-			sourceTree = "<group>";
-		};
-		E63416D7256D2C6700FB58C5 /* AppDelegate */ = {
-			isa = PBXGroup;
-			children = (
-				E63416BD256D2BF500FB58C5 /* AppDelegate.h */,
-				E63416BE256D2BF500FB58C5 /* AppDelegate.m */,
-				E63416C0256D2BF500FB58C5 /* SceneDelegate.h */,
-				E63416C1256D2BF500FB58C5 /* SceneDelegate.m */,
-			);
-			path = AppDelegate;
-			sourceTree = "<group>";
-		};
-		E63416D8256D2C8700FB58C5 /* DK */ = {
-			isa = PBXGroup;
-			children = (
-				E63416D7256D2C6700FB58C5 /* AppDelegate */,
-				E63416D6256D2C4100FB58C5 /* main */,
-				E63416D9256D33DE00FB58C5 /* lib */,
-				E63416C3256D2BF500FB58C5 /* ViewController.h */,
-				E63416C4256D2BF500FB58C5 /* ViewController.m */,
-				E63416DA256D33FE00FB58C5 /* DKFactory.h */,
-				E63416DB256D33FE00FB58C5 /* DKFactory.m */,
-			);
-			path = DK;
-			sourceTree = "<group>";
-		};
-		E63416D9256D33DE00FB58C5 /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				E6F610FE256E7A1700B0EEC7 /* ZZFLEX */,
-			);
-			path = lib;
 			sourceTree = "<group>";
 		};
 		E6F610FE256E7A1700B0EEC7 /* ZZFLEX */ = {
@@ -779,7 +846,6 @@
 				E6F61187256E7A1700B0EEC7 /* ZZImageViewChainModel.m in Sources */,
 				E6F6117C256E7A1700B0EEC7 /* ZZFLEXViewModel+Angel.m in Sources */,
 				E6F6119B256E7A1700B0EEC7 /* ZZFLEXCollectionViewController+EditExtension.m in Sources */,
-				E63416DC256D33FE00FB58C5 /* DKFactory.m in Sources */,
 				E6F61181256E7A1700B0EEC7 /* ZZLabelChainModel.m in Sources */,
 				E6F6118C256E7A1700B0EEC7 /* UIButton+ZZExtension.m in Sources */,
 				E6F61175256E7A1700B0EEC7 /* ZZFLEXAngelViewBatchChainModel.m in Sources */,
@@ -970,7 +1036,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CLFQNFJ548;
-				INFOPLIST_FILE = DKObjectC/Info.plist;
+				INFOPLIST_FILE = DKObjectC/Resource/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -989,7 +1055,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CLFQNFJ548;
-				INFOPLIST_FILE = DKObjectC/Info.plist;
+				INFOPLIST_FILE = DKObjectC/Resource/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
