@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface DKBaseTableFlexCell : UITableViewCell //<ZZFlexibleLayoutViewProtocol>
+@interface DKBaseTableFlexCell : UITableViewCell // <ZZFlexibleLayoutViewProtocol>
 
 @end
 
