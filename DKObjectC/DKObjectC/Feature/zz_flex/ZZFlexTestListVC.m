@@ -11,6 +11,10 @@
 
 @interface ZZFlexTestListVC ()
 
+@property (nonatomic, strong) NSString *pStr;
+
+@property (nonatomic, copy) NSString *cStr;
+
 @end
 
 @implementation ZZFlexTestListVC
@@ -18,6 +22,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    
+    
+    
+    NSMutableString *mStr = [NSMutableString stringWithString:@"mStr__"];
+    NSLog(@"%@ %@ %@", self.pStr, self.cStr, mStr);
+    self.pStr = mStr;
+    self.cStr = mStr;
+    NSLog(@"%@ %@ %@", self.pStr, self.cStr, mStr);
+    [mStr appendString:@"wowowowo"];
+    NSLog(@"%@ %@ %@", self.pStr, self.cStr, mStr);
+    
     
     self.tableView.zz_setup.masonry(^(__kindof UIView *sender, MASConstraintMaker *make) {
         make.edges.mas_equalTo(self.view);
